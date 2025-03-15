@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Search | WatchHub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>WatchHub - Find Your Favorite Movies & TV Shows</h1>
+        <button id="dark-mode-toggle">🌙</button>
+    </header>
+    
+    <main>
+        <input type="text" id="search-box" placeholder="Search for movies or TV shows...">
+        <button onclick="searchMovies()">Search</button>
+        
+        <h2>Trending Now</h2>
+        <div id="trending-container"></div>
+        
+        <h2>Search Results</h2>
+        <div id="movies-container"></div>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 WatchHub - Powered by TMDB</p>
+    </footer>
+    
+    <!-- Adsterra Ad Placement -->
+    <div id="adsterra-ad" style="margin-top: 20px;"></div>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
